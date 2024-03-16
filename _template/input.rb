@@ -1,6 +1,9 @@
 # 数値を一つ取得
 n = gets.to_i
 
+# 1行分のスペース区切り数列をそれぞれ変数に
+a, b, c = gets.split.map(&:to_i)
+
 # 1行分のスペース区切り数列を配列に
 a = gets.split.map(&:to_i)
 
