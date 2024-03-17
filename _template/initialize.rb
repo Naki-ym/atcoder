@@ -6,3 +6,6 @@ h = Hash.new(0)
 
 #1からnまでの配列を作る
 array = (1..n).to_a
+
+# 文字列を1文字ずつ配列に
+a = s.chars
