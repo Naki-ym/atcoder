@@ -19,3 +19,6 @@ puts s.tr(bef, aft)
 
 # hashの並び替え、valueの降順にした後同じvalueのものの中でkeyの降順にする場合
 hash.sort_by{|k, v| [-v, k]}
+
+# 配列のn番目の要素を先頭に、それ以前の要素は配列の末尾につくようにする
+arr.rotate(n)
