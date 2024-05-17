@@ -22,3 +22,7 @@ hash.sort_by{|k, v| [-v, k]}
 
 # 配列のn番目の要素を先頭に、それ以前の要素は配列の末尾につくようにする
 arr.rotate(n)
+
+#配列の中からn個とる組み合せを2次元配列で取得
+#arr.length < n のとき、空の配列が返ってくる
+arr.combination(n).to_a
